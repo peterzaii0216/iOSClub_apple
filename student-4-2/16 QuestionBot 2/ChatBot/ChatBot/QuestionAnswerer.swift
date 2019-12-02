@@ -9,6 +9,8 @@ struct QuestionAnswerer {
             return "In the cookie jar!"
         } else if lowerQuestion.hasPrefix("where") {
             return "To the North!"
+        } else if lowerQuestion.hasPrefix("安安") {
+            return "你好!"
         } else {
             let defaultNumber = question.count % 3
             
